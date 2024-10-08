@@ -22,4 +22,4 @@ class CardCompleter(Completer):
         if completed is None:
             return completed
         else:
-            return f"{count}x {text}"
+            return f"{count}x {completed}"
